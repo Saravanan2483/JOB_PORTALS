@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email change pop up</title>
+    <link rel="stylesheet" href="email.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <form action="#" method="post">
+            <h2 style="margin-left: 20px;">Change Email address for</h2>
+            <p style="color: rgb(170, 165, 165);margin-left: 20px;">saravanan2483680@gmail.com</p>
+            <label for="firstname" >New email address </label><br>
+            <input type="text" id="new" name="new" required=""><br>
+            <label for="firstname" >Current password </label><br>
+            <input type="password" id="password" name="password" required="" ><img onclick="myFunction()" style="top: 388px;right: 500px;cursor: pointer; height: 30px;position:absolute;" src="eye.png" alt="">
+            <button type="submit" value="Save email" >Save Email</button>
+            <button type="reset" >Cancel Changes</button>
+            </form>
+            <script>
+                function myFunction() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+            </script>
+        </div>
+    </div>    
+</body>
+</html>

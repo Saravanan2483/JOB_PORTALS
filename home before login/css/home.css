@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    cursor: pointer;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#21d4fd, #b721ff);
+    border-radius: 100px;
+  }
+.container1{
+    display: flex;
+    background-color: rgb(68, 65, 65);
+    width: 100%;
+    justify-items: right;
+    height: 70px;
+    text-decoration:none;
+    position: sticky
+    
+}
+.container1 h1{
+text-align: left;
+margin: 4px;
+padding: 6px;
+color: whitesmoke;
+background-color: rgb(68, 65, 65);
+}
+.container1 input{
+    text-align: left;
+    margin: 4px;
+    margin-top: 9px;
+    margin-right: 0%;
+    padding: 6px;
+    color: black;
+    height: 45px;
+    width: 200px;
+    border: none;
+    border-radius: 0;
+    text-decoration: none;
+    
+}
+
+    .container1 img{
+        text-align: left;
+        margin: 9px;
+        margin-left: 0px;
+        color: whitesmoke;
+        height: 45px;
+        width: 40px;
+        border: none;
+        border-radius: 0;
+        text-decoration: none;
+        
+        }
+        .container1 img:hover{
+            cursor: pointer;
+
+        }
+nav {
+    margin-left: 600px;
+    margin-top: 24px;
+    background-color: transparent;
+}        
+.container1 a {
+    background: transparent;
+    color: aliceblue;
+    display: flexbox;
+        text-align: left;
+        margin-left: 40px;
+        padding: 6px;
+        height: 45px;
+        width: 200px;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+    justify-content: right;
+    } 
+nav ul{
+    justify-items: end;
+}
+.container1 button{
+    margin: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 70px;
+    border-radius: 8px;
+    border: none;
+    color:black;
+    background: blue;
+    height: 35px;
+}
+.container1 button:hover{
+    cursor: pointer;}
+.container2{
+    position: relative;
+    
+}
+.jobfind {
+    
+    align-items: center;
+    width: auto;
+    margin: 7px 70px;
+    margin-right: 70px;
+    height: 300px;
+    background-color: rgb(160, 186, 201);
+}
+.jobfind input  {
+    align-items: flex-end;
+    justify-content: right;
+    margin:8px 175px;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: 200;
+    background-color: rgb(236, 174, 220);
+    
+}
+.jobfind button:hover{
+    cursor: pointer;
+}
+.jobfind form{
+    background: transparent;
+}
+.jobfind label{
+    background: transparent;
+}
+.jobfind select  {
+    align-items: flex-end;
+    justify-content: right;
+    margin:4px 40px;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: 200;
+    background-color: rgb(214, 110, 167);
+}
+.jobfind button:hover{
+    cursor: pointer;
+}
+.similarjob{
+    margin: 4px 70px;
+    width: 100%;
+}
+.similarjob nav{
+    display: flex;
+    margin: 20px;  
+    align-items:end;
+    margin-left: 900px;
+
+    
+}
+.similarjob nav a{
+    padding: 10px;
+    border: solid black 2px;
+    text-decoration: none;
+    border-radius: 6px;
+    width: 70px;
+    color: black;
+    transition: 0.5s;
+
+}
+ .similarjob a:hover{
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.similarjob h1{
+    margin-top: 20px;
+    display: inline;
+    align-items: start;
+    margin: 10pt;
+    padding: auto;
+    width: 30%;   
+}
+.similarjob div{
+    border: solid purple 2px;
+    display:inline-flex;
+    height: auto;
+    padding: 20px;
+    width: 40%;
+    margin: 20pt ;
+    text-align: left;
+    align-content: center;
+}
+
+.similarjob div img{
+    margin: 10px;
+    height: 70px;
+    width: 30%;
+    margin-top: 40px;
+}
+.a{
+    display: flex;
+}
+.container{
+    background-image: url(../images/container4.jpg)  ;
+    position: relative;
+    width: 1600px;
+    max-width: 100%;
+    height: 400px;
+    opacity: 80%;
+    background-color: black;  
+
+}
+.container3 ig{
+    position: relative;
+    max-width: 100%;
+    opacity: 65%;
+    background: transparent;
+    text-align: center;
+}
+.container3 h{
+    position: absolute;
+    background: transparent;
+    align-items: center;
+    top: 20%;
+    bottom: 50%;
+    left: 35%;
+    color: white;
+}
+.three{
+    position: absolute;
+    display: inline-flex;
+    background-color: aliceblue;
+    top: 20%;
+    bottom: 50%;
+    left: 35%;
+    color: white;
+    align-items: flex-start;
+}
+.searchicon {
+    position: absolute;
+    background: white;
+    top: 50px;
+    background:transparent;
+    padding: 40px;
+    width: 340px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+
+}
+.goodjob{
+    position: absolute;
+    top: 50px;
+    left: 60%;
+    background:transparent;
+    width: 340px;
+    height: 200px;
+    border: 2px solid black;
+
+}
+
+.topcompany{
+    margin: 4px 70px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.topcompany div{
+    margin-left: 40%;
+    border: none;
+    position: relative;
+    background-color: #a5aaf0;
+    
+    display:inline;
+    height: 200px;
+    padding: 20px;
+    width: 35%;
+    margin: 15px ;
+    border-radius: 20px;
+    text-align: left;
+    align-content: center;}
+ .topcompany div img{
+        height: 30px;
+        position: absolute;
+    
+        left: 260px;
+        align-items: center;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        background: transparent;
+
+    }
+    .topcompany div h3{
+
+        background: transparent;
+        font-weight: 400;
+        padding: auto;
+        margin: 20px;
+        margin-bottom: 0;
+
+    }
+    .topcompany div h4{
+
+        background: transparent;
+        font-weight: 400;
+        padding: auto;
+        margin: 20px;
+        margin-bottom: 13px;
+
+    }
+.topcompany div input{
+    margin-top: 30px;
+    color: white;
+    margin-left: 40%;
+    width: 110px;
+    border: none;
+    height: 30px;
+    background-color: #210368;
+    border-radius: 10px;
+    transition: 0.5ms;
+}
+.topcompany div input:hover{
+    cursor: pointer;
+    color: black;
+    background: aliceblue;
+}
+.TOP{
+    margin: 40PX;
+    margin-left: 150px;
+}
+#c{
+    background-color:rgb(229, 122, 243)
+}
+#d{
+    background-color:rgb(238, 128, 188)
+}
+#e{
+    background-color:rgb(243, 122, 148)
+}
+.feature{
+background: url(../images/feature.jpg);
+display: flex;
+margin-top: 90px;
+width: 100%;
+height: 300px;
+text-align: center;
+}
+
+.feature h3{
+background: transparent;
+color: white;
+text-align: center;
+margin-top: 130px;
+margin-left: 140px;
+padding-left: 40px;
+font-size: medium;
+font-weight: 60;
+}
+.feature h3:hover{
+    cursor: pointer;
+
+}
+.popular{
+    margin: 4px 70px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+ 
+
+}
+#row1{
+    margin-left: 30%;
+    border: none;
+    position: relative;
+    display:flex;
+    height: 150px;
+    padding: 20px;
+    width: 100%;
+    margin: 15px ;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;}
+.headerofpopular{
+    text-align: center;
+    margin: 2ch;
+}
+#row1 div{
+    border: 2px solid gainsboro;
+    align-items: center;
+    width: 20%;
+    margin-left: 5%;
+    border-radius: 5px;
+    transition: 2ms;
+}
+#row1 div img{
+    margin:20px 20px 10px 40px;
+    background: transparent;
+    border-radius: 6px;
+}
+#row1 div h5{
+    margin-left: 35px;
+    background: transparent;
+}
+#row1 div:hover{
+    cursor: pointer;
+    color: white;
+    background: #210368;
+}
+.footer{
+    margin-top: 90px;
+}
